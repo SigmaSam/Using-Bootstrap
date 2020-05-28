@@ -1,0 +1,16 @@
+* {
+  margin-bottom: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.active {
+  width: 100px;
+  height: 100px;
+}
