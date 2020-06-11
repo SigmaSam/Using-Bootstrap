@@ -54,7 +54,6 @@ a {
   margin-top: 2rem;
   padding-top: 1rem;
   margin-bottom: 1rem;
-  color: rgba(3, 3, 3, 0.4);
   font: bolder 20px/16px "Roboto Condensed", sans-serif;
   border-bottom: 1px solid #ddd;
 }
@@ -364,7 +363,6 @@ a {
 }
 
 .ed__tittle {
-  font-size: 22px;
   line-height: 22px;
   text-transform: none;
   font: bolder 22px/16px "Roboto Condensed", sans-serif;
