@@ -16,7 +16,7 @@ This project requests students to build a replica of the news site Newsweek.com 
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/SigmaSam/Using-Bootstrap/alpha/index.html)
 
 ## Getting Started
 
