@@ -3,7 +3,9 @@ This project requests students to build a replica of the news site Newsweek.com 
 
  > I replicated the newssite Newsweek.com including their responsiveness for smaller screens.
  ![screenshot](Images/screenshot1.png)
+
  ![screenshot](Images/screenshot3.png)
+
  ![screenshot](Images/screenshot2.png)
 
  Additional description about the project and its features.
