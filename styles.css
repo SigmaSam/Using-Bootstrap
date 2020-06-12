@@ -476,14 +476,6 @@ a {
     background-color: #c2d4d7;
     z-index: 1;
   }
+  
 
-  .lo__button {
-    background: url(https://g.newsweek.com/www/images/user-w.svg) center / contain no-repeat;
-    opacity: 0.75;
-    margin-right: 1rem;
-  }
-
-  .lo__button p {
-    display: none;
-  }
 }
