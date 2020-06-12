@@ -2,9 +2,9 @@
 This project requests students to build a replica of the news site Newsweek.com using the Bootstrap framework.
 
  > I replicated the newssite Newsweek.com including their responsiveness for smaller screens.
- ![screenshot](Images/screenshot1.png)
- ![screenshot](Images/screenshot3.png)
- ![screenshot](Images/screenshot2.png)
+ ![screenshot](Images/Screenshot_1.png)
+ ![screenshot](Images/Screenshot_3.png)
+ ![screenshot](Images/Screenshot_2.png)
 
  Additional description about the project and its features.
 
@@ -16,7 +16,7 @@ This project requests students to build a replica of the news site Newsweek.com 
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/SigmaSam/Using-Bootstrap/alpha/index.html)
 
 ## Getting Started
 
