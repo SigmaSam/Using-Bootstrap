@@ -10,6 +10,10 @@ a {
   color: black;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .nav__container {
   background-color: red;
   position: fixed;
@@ -264,6 +268,8 @@ a {
 }
 
 .more_container img {
+  min-height: 72px;
+  min-width: 100px;
   object-fit: contain;
 }
 
@@ -449,11 +455,13 @@ a {
 
 .priv {
   margin-right: -1rem;
+  object-fit: contain;
 }
 
 .xi {
   margin-top: 4rem;
   margin-left: -4rem;
+  object-fit: contain;
 }
 
 .sub__button {
@@ -525,6 +533,8 @@ a {
 }
 
 @media (max-width: 768px) {
+
+
   #hero {
     display: none;
   }
@@ -533,6 +543,10 @@ a {
     display: none;
   }
 
+  .xi {
+    margin-top: -4rem;
+    margin-right: -8rem;
+  }
   .navbar-brand svg {
     padding-left: 0;
     width: 135px;
@@ -549,5 +563,10 @@ a {
     text-transform: uppercase;
     background-color: #c2d4d7;
     z-index: 1;
+  }
+
+  .more_container a {
+    font-size: 0.8rem;
+    word-wrap: none;
   }
 }
