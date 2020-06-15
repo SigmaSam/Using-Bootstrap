@@ -16,9 +16,10 @@
 
 <body class="bg-light">
   <header class="py-3">
-    <nav class="navbar navbar-expand-sm nav__container fixed-top">
+    <nav class="small_nav nav__container navbar navbar-expand-sm pt-4">
       <div class="container-fluid">
-        <a class="navbar-brand d-md-block d-lg-none " href="#">
+        <a class="d-none d-lg-block text-light font-weight-bold">Mon, Jun 15, 2020</a>
+        <a class="navbar-brand d-md-block d-lg-none" href="#">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
             y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve">
             <g>
@@ -28,7 +29,7 @@
             </g>
           </svg>
         </a>
-        <a class="navbar-brand d-none d-lg-block mx-auto pl-9" href="#">
+        <a class="navbar-brand d-none d-lg-block pb-4" href="#">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
             y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve">
             <g>
@@ -38,67 +39,51 @@
             </g>
           </svg>
         </a>
-        <ul class="navbar-nav row flex-nowrap align-content-center">
-          <li class="nav-item ">
+        <ul class="d-flex flex-nowrap">
+          <li class="nav-item mt-2 ">
             <a class="d-sm-none d-md-block text-uppercase text-light font-weight-bold  btn" href="">Login</a>
           </li>
-          <li>
+          <li class="nav-item mt-2">
             <i class="fas fa-user m-auto d-none d-sm-block d-md-none btn"></i>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mt-2">
             <button type="button" class="text-uppercase font-weight-bold btn btn-warning">subscribe</button>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mt-2">
             <i class="nav-link fas fa-align-justify">
-          </i>
+            </i>
         </ul>
       </div>
     </nav>
-    <nav class="nav__two bg-white mx-auto pt-5  mt-5 d-none d-lg-block border-bottom">
-      <ul class="row flex-nowrap mx-auto justify-content-between py-auto">
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">U.S</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">World</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">Business</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">Tech & Science</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">Culture</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">Newsgeek</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">Sports</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">Health</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">The Debate</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">Vantage</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold border-right text-dark" href="">Weather</a>
-        </li>
-        <li class="list-group-item d-block">
-          <input type="search" placeholder=" Search... " class="border border-white search-button">
-          <i class="fas fa-search ml-3"></i>
+    <div class="nav__two d-none d-lg-block  mx-auto mt-2  pt-3">
+      <div class="d-flex mx-auto justify-content-center ">
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">U.S</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">World</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">Business</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark d-flex flex-nowrap" href="">Tech &
+          Science</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">Culture</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">Newsgeek</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">Sports</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">Health</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">The Debate</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">Vantage</a>
+        <a class="p-1 bg-white font-weight-bold border-right border-bottom text-dark" href="">Weather</a>
+        <div class="search__box bg-white border-bottom">
+          <input type="search" placeholder="   Search... " class="pt-2 bg-white border border-white search-button">
+          <i class="fas fa-search mr-4"></i>
+        </div>
+        <p class="box ">
+          <span class="content bg-white"></span>
+        </p>
+      </div>
 
-        </li>
-      </ul>
-    </nav>
+
+    </div>
   </header>
-  <main class="row px-4">
-    <div class="col__1 col-sm-12 col-md-7 col-lg-6 order-md-2 order-lg-2 mt-5 p-1">
+
+  <main class="row px-3">
+    <div class="col__1 col-sm-12 col-md-7 col-lg-6 order-md-2 order-lg-2 mt-1 p-1">
       <div class="top__story bg-white ">
         <div class="p-3">
           <h3 class="block-title">TOP STORY</h3>
@@ -324,7 +309,7 @@
       </div>
     </div>
 
-    <div class="col__2 col-sm-12 col-md-5 col-lg-3 order-md-1 order-lg-1 mt-5 px-1 pb-2">
+    <div class="col__2 col-sm-12 col-md-5 col-lg-3 order-md-1 order-lg-1 mt-1 px-1 pb-2">
       <div class="featured__story bg-white p-3">
         <div class="">
           <h3 class="block-title">FEATURED STORIES</h3>
@@ -403,15 +388,15 @@
       </div>
     </div>
 
-    <div class="col__3 col-sm-12 col-md-12 col-lg-3 order-md-3 order-lg-3 mt-5 p-1">
-      <div class="d-flex flex-column bg-white ">
+    <div class="col__3 col-sm-12 col-md-12 col-lg-3 order-md-3 order-lg-3 mt-1 p-1">
+      <div class="d-flex flex-column bg-white">
         <div>
           <h3 class="block-title__debate mx-2">THE DEBATE</h3>
-          <div class="debater__one d-flex">
-            <img class="col col-lg img-fluid"
+          <div class="debater__one d-flex ">
+            <img class="mr-1 "
               src="https://d.newsweek.com/en/full/1594385/marianne-williamson.png?w=150&h=150&f=f3d3cff1fc41d81f90a4dcca877ee137"
               alt="">
-            <div class="col-10 col-lg">
+            <div class=" text-wrap">
               <a class="debate__art" href="#">Respond to Coronavirus With More Nationalism</a>
               <p class="by">BY<a class="debate__art" href=""> NIGER FARAGE</a></p>
             </div>
@@ -420,25 +405,25 @@
             <hr>
             <p class="vs">VS</p>
           </div>
-          <div class="debater__two d-flex ">
-            <img class="col col-lg order-2 img-fluid"
+          <div class="debater__two d-flex flex-row-reverse">
+            <img class="ml-1 img-fluid"
               src="https://d.newsweek.com/en/full/1594385/marianne-williamson.png?w=150&h=150&f=f3d3cff1fc41d81f90a4dcca877ee137"
               alt="">
-            <div class="col-10 col-lg order-1">
+            <div class="">
               <a class="debate__art" href="#">Respond to Coronavirus With More Globalism</a>
               <p class="by">BY<a class="debate__art text-uppercase" href=""> Marianne Williamson</a></p>
-            </div>
+            </div>            
           </div>
         </div>
       </div>
       <div class="opinion__container bg-white p-2">
         <h3 class="block-title__debate text-uppercase">opinion</h3>
-        <div class="row p-2">
-          <div class="col col-12 d-flex py-2 border-top">
-            <img class=""
+        <div class="">
+          <div class="col d-flex py-2 border-top">
+            <img class="op__img"
               src="https://d.newsweek.com/en/full/1595002/j-drew-lanham.png?w=63&h=63&f=87e6ca82fb555f6f7e011d6f9e9d7fac"
               alt="">
-            <div class="ml-1">
+            <div class="ml-1 col-lg-8">
               <a class="opinion__art" href="#">I've Spent My Life Birding While Black. I Can't and Won't Forgive Amy
                 Cooper</a>
               <p class="by__opinion opinion__auth text-uppercase">BY J. Drew Lanham</p>
@@ -448,7 +433,7 @@
             <img class=""
               src="https://d.newsweek.com/en/full/1595002/j-drew-lanham.png?w=63&h=63&f=87e6ca82fb555f6f7e011d6f9e9d7fac"
               alt="">
-            <div class="ml-1">
+            <div class="ml-1 col-lg-8">
               <a class="opinion__art" href="#">I've Spent My Life Birding While Black. I Can't and Won't Forgive Amy
                 Cooper</a>
               <p class="by__opinion opinion__auth text-uppercase">BY J. Drew Lanham</p>
@@ -458,7 +443,7 @@
             <img class=""
               src="https://d.newsweek.com/en/full/1595002/j-drew-lanham.png?w=63&h=63&f=87e6ca82fb555f6f7e011d6f9e9d7fac"
               alt="">
-            <div class="ml-1">
+            <div class="ml-1 col-lg-8">
               <a class="opinion__art" href="#">I've Spent My Life Birding While Black. I Can't and Won't Forgive Amy
                 Cooper</a>
               <p class="by__opinion opinion__auth text-uppercase">BY J. Drew Lanham</p>
@@ -468,7 +453,7 @@
             <img class=""
               src="https://d.newsweek.com/en/full/1595002/j-drew-lanham.png?w=63&h=63&f=87e6ca82fb555f6f7e011d6f9e9d7fac"
               alt="">
-            <div class="ml-1">
+            <div class="ml-1 col-lg-8">
               <a class="opinion__art" href="#">I've Spent My Life Birding While Black. I Can't and Won't Forgive Amy
                 Cooper</a>
               <p class="by__opinion opinion__auth text-uppercase">BY J. Drew Lanham</p>
@@ -478,7 +463,7 @@
             <img class=""
               src="https://d.newsweek.com/en/full/1595002/j-drew-lanham.png?w=63&h=63&f=87e6ca82fb555f6f7e011d6f9e9d7fac"
               alt="">
-            <div class="ml-1">
+            <div class="ml-1 col-lg-8">
               <a class="opinion__art" href="#">I've Spent My Life Birding While Black. I Can't and Won't Forgive Amy
                 Cooper</a>
               <p class="by__opinion opinion__auth text-uppercase">BY J. Drew Lanham</p>
@@ -488,7 +473,7 @@
             <img class=""
               src="https://d.newsweek.com/en/full/1595002/j-drew-lanham.png?w=63&h=63&f=87e6ca82fb555f6f7e011d6f9e9d7fac"
               alt="">
-            <div class="ml-1">
+            <div class="ml-1 col-lg-8">
               <a class="opinion__art" href="#">I've Spent My Life Birding While Black. I Can't and Won't Forgive Amy
                 Cooper</a>
               <p class="by__opinion opinion__auth text-uppercase">BY J. Drew Lanham</p>
@@ -507,6 +492,7 @@
         </div>
       </div>
     </div>
+
     <div class="more__containers p-2  order-md-5 d-md-none d-lg-none d-xl-none">
       <div class="bg-white container-fluid">
         <h3 class="block-title__more text-uppercase ">More Stories</h3>
@@ -925,15 +911,13 @@
                 </h2>
               </div>
             </div>
-            <div class="col-md row flex-column flex-md-nowrap ">
+            <div class="col-md row flex-column flex-md-nowrap justify-content-start">
               <div class="more_container px-3 col-md">
                 <div class="row">
-                  <div class="col-2 col-md-6">
-                    <img class="w-100"
-                      src="https://d.newsweek.com/en/full/1595393/george-floyd-protest.jpg?w=397&h=265&f=10e5732fabf185a4d20833df8303afd8"
+                    <img class="col-3 col-lg-3 col-md-6"
+                      src="https://d.newsweek.com/en/full/1599612/texas-longhorns-college-football.jpg?w=95&h=95&f=2f27ace1594bef03f77612afd42c881e"
                       alt="">
-                  </div>
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Minnesota Mayor Condemns Systemic Violence That Led to George Floyd's
                       Death
                     </a>
@@ -942,10 +926,10 @@
               </div>
               <div class="more_container pt-2 col-md">
                 <div class="row">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595380/lady-gaga.jpg?w=95&h=95&f=72f0270ed5661dc59faf9867ce38dc43"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Lady Gaga Brands Donald Trump 'Racist' in Statement on George Floyd's
                       Death
                     </a>
@@ -954,10 +938,10 @@
               </div>
               <div class="more_container pt-2 col-md pb-6">
                 <div class="row pb-6">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595375/john-cusack.jpg?w=95&h=95&f=b958c157b33e908e7aad33fbdfab68da"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">John Cusack Says Police Came at Him With Batons During Chicago
                       Protests
                     </a>
@@ -985,15 +969,13 @@
                 </h2>
               </div>
             </div>
-            <div class="col-md row flex-column flex-md-nowrap ">
+            <div class="col-md row flex-column flex-md-nowrap justify-content-start">
               <div class="more_container px-3 col-md">
                 <div class="row">
-                  <div class="col-2 col-md-6">
-                    <img class="w-100"
-                      src="https://d.newsweek.com/en/full/1595393/george-floyd-protest.jpg?w=397&h=265&f=10e5732fabf185a4d20833df8303afd8"
+                    <img class="col-3 col-lg-3 col-md-6"
+                      src="https://d.newsweek.com/en/full/1599612/texas-longhorns-college-football.jpg?w=95&h=95&f=2f27ace1594bef03f77612afd42c881e"
                       alt="">
-                  </div>
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Minnesota Mayor Condemns Systemic Violence That Led to George Floyd's
                       Death
                     </a>
@@ -1002,10 +984,10 @@
               </div>
               <div class="more_container pt-2 col-md">
                 <div class="row">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595380/lady-gaga.jpg?w=95&h=95&f=72f0270ed5661dc59faf9867ce38dc43"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Lady Gaga Brands Donald Trump 'Racist' in Statement on George Floyd's
                       Death
                     </a>
@@ -1014,10 +996,10 @@
               </div>
               <div class="more_container pt-2 col-md pb-6">
                 <div class="row pb-6">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595375/john-cusack.jpg?w=95&h=95&f=b958c157b33e908e7aad33fbdfab68da"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">John Cusack Says Police Came at Him With Batons During Chicago
                       Protests
                     </a>
@@ -1045,15 +1027,13 @@
                 </h2>
               </div>
             </div>
-            <div class="col-md row flex-column flex-md-nowrap ">
+            <div class="col-md row flex-column flex-md-nowrap justify-content-start">
               <div class="more_container px-3 col-md">
                 <div class="row">
-                  <div class="col-2 col-md-6">
-                    <img class="w-100"
-                      src="https://d.newsweek.com/en/full/1595393/george-floyd-protest.jpg?w=397&h=265&f=10e5732fabf185a4d20833df8303afd8"
+                    <img class="col-3 col-lg-3 col-md-6"
+                      src="https://d.newsweek.com/en/full/1599612/texas-longhorns-college-football.jpg?w=95&h=95&f=2f27ace1594bef03f77612afd42c881e"
                       alt="">
-                  </div>
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Minnesota Mayor Condemns Systemic Violence That Led to George Floyd's
                       Death
                     </a>
@@ -1062,10 +1042,10 @@
               </div>
               <div class="more_container pt-2 col-md">
                 <div class="row">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595380/lady-gaga.jpg?w=95&h=95&f=72f0270ed5661dc59faf9867ce38dc43"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Lady Gaga Brands Donald Trump 'Racist' in Statement on George Floyd's
                       Death
                     </a>
@@ -1074,10 +1054,10 @@
               </div>
               <div class="more_container pt-2 col-md pb-6">
                 <div class="row pb-6">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595375/john-cusack.jpg?w=95&h=95&f=b958c157b33e908e7aad33fbdfab68da"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">John Cusack Says Police Came at Him With Batons During Chicago
                       Protests
                     </a>
@@ -1105,15 +1085,13 @@
                 </h2>
               </div>
             </div>
-            <div class="col-md row flex-column flex-md-nowrap ">
+            <div class="col-md row flex-column flex-md-nowrap justify-content-start">
               <div class="more_container px-3 col-md">
                 <div class="row">
-                  <div class="col-2 col-md-6">
-                    <img class="w-100"
-                      src="https://d.newsweek.com/en/full/1595393/george-floyd-protest.jpg?w=397&h=265&f=10e5732fabf185a4d20833df8303afd8"
+                    <img class="col-3 col-lg-3 col-md-6"
+                      src="https://d.newsweek.com/en/full/1599612/texas-longhorns-college-football.jpg?w=95&h=95&f=2f27ace1594bef03f77612afd42c881e"
                       alt="">
-                  </div>
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Minnesota Mayor Condemns Systemic Violence That Led to George Floyd's
                       Death
                     </a>
@@ -1122,10 +1100,10 @@
               </div>
               <div class="more_container pt-2 col-md">
                 <div class="row">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595380/lady-gaga.jpg?w=95&h=95&f=72f0270ed5661dc59faf9867ce38dc43"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Lady Gaga Brands Donald Trump 'Racist' in Statement on George Floyd's
                       Death
                     </a>
@@ -1134,10 +1112,10 @@
               </div>
               <div class="more_container pt-2 col-md pb-6">
                 <div class="row pb-6">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595375/john-cusack.jpg?w=95&h=95&f=b958c157b33e908e7aad33fbdfab68da"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">John Cusack Says Police Came at Him With Batons During Chicago
                       Protests
                     </a>
@@ -1165,15 +1143,13 @@
                 </h2>
               </div>
             </div>
-            <div class="col-md row flex-column flex-md-nowrap ">
+            <div class="col-md row flex-column flex-md-nowrap justify-content-start">
               <div class="more_container px-3 col-md">
                 <div class="row">
-                  <div class="col-2 col-md-6">
-                    <img class="w-100"
-                      src="https://d.newsweek.com/en/full/1595393/george-floyd-protest.jpg?w=397&h=265&f=10e5732fabf185a4d20833df8303afd8"
+                    <img class="col-3 col-lg-3 col-md-6"
+                      src="https://d.newsweek.com/en/full/1599612/texas-longhorns-college-football.jpg?w=95&h=95&f=2f27ace1594bef03f77612afd42c881e"
                       alt="">
-                  </div>
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Minnesota Mayor Condemns Systemic Violence That Led to George Floyd's
                       Death
                     </a>
@@ -1182,10 +1158,10 @@
               </div>
               <div class="more_container pt-2 col-md">
                 <div class="row">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595380/lady-gaga.jpg?w=95&h=95&f=72f0270ed5661dc59faf9867ce38dc43"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Lady Gaga Brands Donald Trump 'Racist' in Statement on George Floyd's
                       Death
                     </a>
@@ -1194,10 +1170,10 @@
               </div>
               <div class="more_container pt-2 col-md pb-6">
                 <div class="row pb-6">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595375/john-cusack.jpg?w=95&h=95&f=b958c157b33e908e7aad33fbdfab68da"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">John Cusack Says Police Came at Him With Batons During Chicago
                       Protests
                     </a>
@@ -1225,15 +1201,13 @@
                 </h2>
               </div>
             </div>
-            <div class="col-md row flex-column flex-md-nowrap ">
+            <div class="col-md row flex-column flex-md-nowrap justify-content-start">
               <div class="more_container px-3 col-md">
                 <div class="row">
-                  <div class="col-2 col-md-6">
-                    <img class="w-100"
-                      src="https://d.newsweek.com/en/full/1595393/george-floyd-protest.jpg?w=397&h=265&f=10e5732fabf185a4d20833df8303afd8"
+                    <img class="col-3 col-lg-3 col-md-6"
+                      src="https://d.newsweek.com/en/full/1599612/texas-longhorns-college-football.jpg?w=95&h=95&f=2f27ace1594bef03f77612afd42c881e"
                       alt="">
-                  </div>
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Minnesota Mayor Condemns Systemic Violence That Led to George Floyd's
                       Death
                     </a>
@@ -1242,10 +1216,10 @@
               </div>
               <div class="more_container pt-2 col-md">
                 <div class="row">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595380/lady-gaga.jpg?w=95&h=95&f=72f0270ed5661dc59faf9867ce38dc43"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Lady Gaga Brands Donald Trump 'Racist' in Statement on George Floyd's
                       Death
                     </a>
@@ -1254,10 +1228,10 @@
               </div>
               <div class="more_container pt-2 col-md pb-6">
                 <div class="row pb-6">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595375/john-cusack.jpg?w=95&h=95&f=b958c157b33e908e7aad33fbdfab68da"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">John Cusack Says Police Came at Him With Batons During Chicago
                       Protests
                     </a>
@@ -1285,15 +1259,13 @@
                 </h2>
               </div>
             </div>
-            <div class="col-md row flex-column flex-md-nowrap ">
+            <div class="col-md row flex-column flex-md-nowrap justify-content-start">
               <div class="more_container px-3 col-md">
                 <div class="row">
-                  <div class="col-2 col-md-6">
-                    <img class="w-100"
-                      src="https://d.newsweek.com/en/full/1595393/george-floyd-protest.jpg?w=397&h=265&f=10e5732fabf185a4d20833df8303afd8"
+                    <img class="col-3 col-lg-3 col-md-6"
+                      src="https://d.newsweek.com/en/full/1599612/texas-longhorns-college-football.jpg?w=95&h=95&f=2f27ace1594bef03f77612afd42c881e"
                       alt="">
-                  </div>
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Minnesota Mayor Condemns Systemic Violence That Led to George Floyd's
                       Death
                     </a>
@@ -1302,10 +1274,10 @@
               </div>
               <div class="more_container pt-2 col-md">
                 <div class="row">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595380/lady-gaga.jpg?w=95&h=95&f=72f0270ed5661dc59faf9867ce38dc43"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Lady Gaga Brands Donald Trump 'Racist' in Statement on George Floyd's
                       Death
                     </a>
@@ -1314,10 +1286,10 @@
               </div>
               <div class="more_container pt-2 col-md pb-6">
                 <div class="row pb-6">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595375/john-cusack.jpg?w=95&h=95&f=b958c157b33e908e7aad33fbdfab68da"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">John Cusack Says Police Came at Him With Batons During Chicago
                       Protests
                     </a>
@@ -1345,15 +1317,13 @@
                 </h2>
               </div>
             </div>
-            <div class="col-md row flex-column flex-md-nowrap ">
+            <div class="col-md row flex-column flex-md-nowrap justify-content-start">
               <div class="more_container px-3 col-md">
                 <div class="row">
-                  <div class="col-2 col-md-6">
-                    <img class="w-100"
-                      src="https://d.newsweek.com/en/full/1595393/george-floyd-protest.jpg?w=397&h=265&f=10e5732fabf185a4d20833df8303afd8"
+                    <img class="col-3 col-lg-3 col-md-6"
+                      src="https://d.newsweek.com/en/full/1599612/texas-longhorns-college-football.jpg?w=95&h=95&f=2f27ace1594bef03f77612afd42c881e"
                       alt="">
-                  </div>
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Minnesota Mayor Condemns Systemic Violence That Led to George Floyd's
                       Death
                     </a>
@@ -1362,10 +1332,10 @@
               </div>
               <div class="more_container pt-2 col-md">
                 <div class="row">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595380/lady-gaga.jpg?w=95&h=95&f=72f0270ed5661dc59faf9867ce38dc43"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">Lady Gaga Brands Donald Trump 'Racist' in Statement on George Floyd's
                       Death
                     </a>
@@ -1374,10 +1344,10 @@
               </div>
               <div class="more_container pt-2 col-md pb-6">
                 <div class="row pb-6">
-                  <img class="col-2 col-md-6"
+                  <img class="col-3 col-lg-3 col-md-6"
                     src="https://d.newsweek.com/en/full/1595375/john-cusack.jpg?w=95&h=95&f=b958c157b33e908e7aad33fbdfab68da"
                     alt="">
-                  <div class="col-10 col-md-6">
+                  <div class="col-9 col-lg-9 col-md-6">
                     <a class="more__art" href="#">John Cusack Says Police Came at Him With Batons During Chicago
                       Protests
                     </a>
@@ -1389,9 +1359,9 @@
         </div>
       </div>
     </div>
-    <div class="order-md-9 px-lg-12 pt-2 mx-auto d-flex flex-sm-column ">
-      <div class="subscribe__container">
-        <div class="container-fluid bg-white">
+    <div class="order-md-9 px-lg-12 pt-2 mx-auto d-flex flex-sm-column">
+      <div class="row px-2">
+        <div class=" bg-white col-lg-8">
           <h3><a class="ed__tittle text-uppercase" href="">subscribe</a></h3>
           <div class="subs__center d-flex pb-4 mb-4">
             <img class="priv"
@@ -1408,22 +1378,24 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="newsletters__container">
-        <div class="container-fluid bg-white ">
-          <h3><a class="ed__tittle text-uppercase" href="">newsletter</a></h3>
-          <div class="letter__center border container-fluid">
-            <h3 class="letter__title">The Starting 5</h3>
-            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-            <form class="form-text mb-2" action="index.html" method="post">
-            </form>
-            <button type="button" name="button" class="let__button btn btn-danger btn-block">SUBSCRIBE ></button>
+        <div class="newsletters__container col-lg-4">
+          <div class="container-fluid bg-white ">
+            <h3><a class="ed__tittle text-uppercase" href="">newsletter</a></h3>
+            <div class="letter__center border container-fluid">
+              <h3 class="letter__title">The Starting 5</h3>
+              <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+              <form class="form-text mb-2" action="index.html" method="post">
+              </form>
+              <button type="button" name="button" class="let__button btn btn-danger btn-block">SUBSCRIBE ></button>
+            </div>
           </div>
         </div>
       </div>
+      
     </div>
 
   </main>
+
   <footer class="foot__container px-2 order-md">
     <div class="container-fluid py-4 my-4 bg-white align-center">
       <div class="row flex-sm-column flex-md-row flex-md-nowrap mx-1">

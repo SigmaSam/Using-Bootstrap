@@ -11,7 +11,11 @@ a {
 }
 
 .nav__container {
-  background-color: red;
+  background-color:red;
+  position: fixed;
+  z-index: 1;
+  margin-top: -1rem;
+  
 }
 
 .navbar-brand svg {
@@ -21,20 +25,73 @@ a {
   fill: white;
 }
 
-.navbar-nav {
-  flex-wrap: nowrap;
-  background-color: red;
-}
-
 .lo__button button {
   padding-bottom: 0;
   margin-bottom: -1rem;
 }
 
+
 .nav__two {
+  top: 25%;
+  margin: 0 auto;
+  position: relative;
+  z-index:10;
+}
+
+.nav__two a {
+  color: rgb(245, 50, 50);
+  align-self: center;
+  z-index: 10;
+  margin-top:-2.4rem;
+  overflow: hidden;
+  text-overflow: "" ;
+  white-space: nowrap;
+  display:block;
+  min-width:1px;
+ 
+}
+
+.nav__two div {
   color: black;
   align-self: center;
-}
+  z-index: 10;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display:block;
+ }
+
+.search__box {
+  margin-top:-2.4rem;
+ }
+
+.box {
+  position: relative;
+  width: 6rem; height: 1rem;
+  padding: 6px;
+  color:;
+  text-align: right;
+  margin-top:-2.4rem
+  }
+
+.box:before {
+  content: "";
+  display: block;
+  z-index: 0;
+  top: 0;
+  right: 0;  width: 0;
+  height: 0;
+  border: 1rem solid transparent;
+  border-bottom-color: white;
+  border-left-color:white;
+  margin-top: -0.3rem;
+  margin-left: -0.5rem;
+  }
+
+
+.content {
+  position: relative;
+  z-index: 1;
+  }
 
 .block-title {
   color: rgba(3, 3, 3, 0.4);
@@ -132,6 +189,17 @@ a {
   border-bottom: 1px solid red;
 }
 
+.opinion__container img {
+  object-fit: contain;
+}
+.debater__one img {
+  object-fit: scale-down;
+}
+
+.debater__two img {
+  object-fit: scale-down;
+}
+
 .debater__one {
   border-top: 0.4rem solid red;
   padding-top: 1rem;
@@ -170,14 +238,9 @@ a {
   margin-top: -2.2rem;
 }
 
-.opinion_container {
-  border-bottom: 1px solid #ddd;
-  padding-top: 0.8rem;
-}
 
-.opinion_container img {
-  width: auto;
-  height: auto;
+.op__art {
+  flex: 1
 }
 
 .opinion__art {
@@ -203,8 +266,12 @@ a {
   font-weight: bold;
 }
 
+.more_container img {
+  object-fit: none;
+}
+
 .more_container {
-  padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .more_container_one {
@@ -442,6 +509,9 @@ a {
 }
 
 @media (max-width: 992px) {
+  .nav__container {
+    margin-top: -2.5rem;
+  }
   .navbar-brand svg {
     padding-left: 0;
     width: 135px;
@@ -451,6 +521,11 @@ a {
 }
 
 @media (max-width: 768px) {
+
+  .nav__container {
+    white-space:;
+  }
+
   #hero {
     display: none;
   }

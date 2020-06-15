@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 **Samuel Isaac Almao Herrera**
 
-- Github [@SigmaSam] (https://github.com/SigmaSam)
+- Github[@SigmaSam](https://github.com/SigmaSam)
 
 Contributions, issues and feature requests are welcome!
 
