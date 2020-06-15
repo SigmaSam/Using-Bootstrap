@@ -264,7 +264,8 @@ a {
 }
 
 .more_container img {
-  object-fit: none;
+  object-fit: contain;
+
 }
 
 .more_container {
@@ -504,6 +505,11 @@ a {
 #see_two a {
   font-size: 0.1rem;
 }
+
+.nl__img {
+background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+bac;background-size: cover;
+background-position: center;
 
 @media (max-width: 992px) {
   .nav__container {
