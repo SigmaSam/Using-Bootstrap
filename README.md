@@ -5,9 +5,9 @@ This project requests students to build a replica of the news site Newsweek.com 
  
  ![screenshot](Images/screenshot1.png)
 
- ![screenshot](Images/screenshot3.png)
+ ![screenshot](Images/screenshot_3.png)
 
- ![screenshot](Images/screenshot2.png)
+ ![screenshot](Images/screenshot_2.png)
 
 
  Additional description about the project and its features.
