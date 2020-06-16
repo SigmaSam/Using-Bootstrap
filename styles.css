@@ -82,7 +82,7 @@ body {
   right: 0;
   width: 0;
   height: 0;
-  border: 1rem solid transparent;
+  border: 1.25rem solid transparent;
   border-bottom-color: white;
   border-left-color: white;
   margin-top: -0.3rem;
@@ -196,10 +196,12 @@ body {
 
 .debater__one img {
   object-fit: scale-down;
+  max-height: 90px;
 }
 
 .debater__two img {
   object-fit: scale-down;
+  max-height: 90px;
 }
 
 .debater__one {
