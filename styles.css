@@ -34,7 +34,7 @@ body {
 }
 
 .nav__two {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   top: 25%;
   margin: 0 auto;
   position: relative;
@@ -43,10 +43,9 @@ body {
 
 .nav__two a {
   color: rgb(245, 50, 50);
-  align-self: center;
+  text-align: right;
   z-index: 10;
   margin-top: -2.4rem;
-  overflow: hidden;
   text-overflow: "";
   white-space: nowrap;
   display: block;
@@ -72,7 +71,7 @@ body {
   height: 1rem;
   padding: 6px;
   text-align: right;
-  margin-top: -2.4rem;
+  margin-top: -2.544rem;
 }
 
 .box::before {
