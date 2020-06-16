@@ -394,14 +394,13 @@ body {
   padding: 9px 1rem;
   background-color: #f72210;
   font: bolder 18px/52px "Roboto Condensed", sans-serif;
-  color: white !important;
 }
 
 .new {
   padding: 9px 1rem;
   background-color: white;
   font: bolder 18px/52px "Roboto Condensed", sans-serif;
-  color: #f72210 !important;
+  color: #f72210;
 }
 
 .n__tittles {
@@ -465,9 +464,13 @@ body {
 }
 
 .sub__button {
-  background-color: #f72210 !important;
-  width: 122px;
+  background-color: #f72210;
+  color: white;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   height: 38px;
+  border: none;
+  border-radius: 3px;
   font-weight: bolder;
   font-size: 18px;
 }
@@ -481,12 +484,15 @@ body {
 }
 
 .let__button {
-  background-color: #f72210 !important;
+  background-color: #f72210;
+  color: white;
   width: 100%;
   height: 38px;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 18px;
   margin-bottom: 2rem;
+  border: none;
+  border-radius: 3px;
 }
 
 .foot-brand svg {
@@ -505,11 +511,11 @@ body {
   color: #666;
 }
 
-#see {
+.see {
   display: none;
 }
 
-#see_two a {
+.see_two a {
   font-size: 0.1rem;
 }
 
@@ -533,11 +539,11 @@ body {
 }
 
 @media (max-width: 768px) {
-  #hero {
+  .hero {
     display: none;
   }
 
-  #more {
+  .more {
     display: none;
   }
 
