@@ -57,7 +57,7 @@ body {
 
 .search__Box {
   margin-top: -2.4rem;
-  font-family: Arial, FontAwesome;
+  font-family: Arial, sans-serif, FontAwesome;
 }
 
 .box {
