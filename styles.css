@@ -59,7 +59,7 @@ body {
 
 .search__box {
   margin-top: -2.4rem;
-  font-family: FontAwesome;
+  font-family: FontAwesome, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
