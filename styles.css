@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-brand svg {
-  padding-left: 220px;
+  padding-left: 100px;
   width: 600px;
   height: 60px;
   fill: white;
@@ -34,7 +34,6 @@ body {
 }
 
 .nav__two {
-  justify-items: center;
   font-size: 0.9rem;
   position: relative;
   z-index: 10;
@@ -42,31 +41,28 @@ body {
 
 .nav__two a {
   color: rgb(245, 50, 50);
-  text-align: right;
   z-index: 10;
-  margin-top: -2.4rem;
-  text-overflow: "";
+  padding: 0.6rem 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
   white-space: nowrap;
+  margin-top: -2.4rem;
 }
 
 .nav__two div {
   color: black;
   align-self: center;
   z-index: 10;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
-.search__box {
+.search__Box {
   margin-top: -2.4rem;
-  font-family: FontAwesome, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Arial, FontAwesome;
 }
 
 .box {
   position: relative;
-  width: 6rem;
+  width: 4rem;
   height: 1rem;
   padding: 6px;
   text-align: right;
@@ -517,7 +513,8 @@ body {
   }
 
   .navbar-brand svg {
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
     width: 135px;
     height: 20px;
     fill: white;
